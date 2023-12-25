@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        #gallery {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        h5 {
+            text-align: center;
+            color: #007bff;
+        }
+        .photo-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .photo {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="gallery">
+        <h1>MERN- MOVIE REVIEW </h1>
+<h5>Photo Gallery</h5>
+        <div class="photo-container">
+            <h5>Installing bootsrap</h5>
+            <div class="photo">
+                
+                <img src="images/bootsrap.png" alt="Photo 1">
+            </div>
+        </br></br>
+        <h5>.env file Configurations</h5>
+            <div class="photo">
+                <img src="images/config.png" alt="Photo 2">
+            </div>
+        </br></br>
+        <h5>Database Access </h5>
+            <div class="photo">
+                <img src="images/connection.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Data in Moviereviews </h5>
+            <div class="photo">
+                <img src="images/data.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Installing Front-End Movie Reviews </h5>
+            <div class="photo">
+                <img src="images/installs.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Cluster Data sizing </h5>
+            <div class="photo">
+                <img src="images/mongo.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Navbar </h5>
+            <div class="photo">
+                <img src="images/navbar.png" alt="Photo 3">
+            </div>
+        </br></br>
+            <h5>Package Installations </h5>
+            <div class="photo">
+                <img src="images/packages.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Restaring Server</h5>
+            <div class="photo">
+                <img src="images/restarting server.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Reviews code </h5>
+            <div class="photo">
+                <img src="images/revies.png" alt="Photo 3">
+            </div>
+        </br></br>
+        <h5>Thunder get info when no data is in db </h5>
+            <div class="photo">
+                <img src="images/Thunder.png" alt="Photo 3">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
